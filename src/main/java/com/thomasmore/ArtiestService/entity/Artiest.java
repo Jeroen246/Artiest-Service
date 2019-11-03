@@ -9,20 +9,19 @@ import javax.persistence.*;
 @Table(name="artiest")
 @Data
 @NoArgsConstructor
-
 public class Artiest {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    @Column(name="ArtiestID")
-    private int ArtiestID;
+    @Column(name="artiestID")
+    private int artiestID;
 
     @Column(name="naam")
     private String naam;
 
     @Column(name="biografie")
-    private String biografit;
+    private String biografie;
 
-    @Column(name="id")
+    @Column(name="nationaliteit")
     private String nationaliteit;
 
     @Column(name="jaren")

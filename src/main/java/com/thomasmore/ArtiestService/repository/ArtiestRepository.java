@@ -6,6 +6,6 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin
-public interface ArtiestRepository {
-    Artiest findArtiestById(@Param("title") int id);
+public interface ArtiestRepository extends JpaRepository<Artiest, Integer> {
+    Artiest findArtiestByArtiestID(@Param("artiestID") Integer artiestID);
 }
