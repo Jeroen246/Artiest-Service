@@ -1,5 +1,5 @@
 # Foobar
-Deze service maakt deel uit van een groter project: wikiart.
+Deze service maakt deel uit van een groter project: wikiart.  
 Artiest-Service is een Spring Boot microservice gemaakt om gevens van artiesten uit een elephantDB database te lezen. De gegevens worden doorgestuurd naar een Eureka service en op hun beurt naar de edge service.
 
 Andere repo's voor deze applicatie:
