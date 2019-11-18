@@ -30,4 +30,7 @@ public class Artiest {
     @Column(name="aantalSchilderijen")
     private String aantalSchilderijen;
 
+    @Column(name="imageUrl")
+    private String imageUrl;
+
 }
