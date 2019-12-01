@@ -18,7 +18,7 @@ public class Artiest {
     @Column(name="naam")
     private String naam;
 
-    @Column(name="biografie")
+    @Column(name="biografie", length = 10000)
     private String biografie;
 
     @Column(name="nationaliteit")
