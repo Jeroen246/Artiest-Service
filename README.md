@@ -8,6 +8,7 @@ https://github.com/WesleyMonten/Eureka-Service
 https://github.com/BertVerachtert/ZuulGateway  
 https://github.com/WesleyMonten/Edge-Service  
 https://github.com/BertVerachtert/schilderij
+https://github.com/WesleyMonten/WikiArt
 
 ## Gebruik
 
